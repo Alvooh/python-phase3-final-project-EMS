@@ -13,8 +13,9 @@ def get_all_projects(conn):
 
 def delete_project(conn, project_id):
     cursor = conn.cursor()
-    cursor.execute('DELETE FROM projects WHERE id=?', (project_id,))
+    cursor.execute('DELETE FROM projects WHERE id = ?', (project_id,))
     conn.commit()
+
 
 def update_project(conn, project_id, name=None, description=None, department_id=None):
     cursor = conn.cursor()

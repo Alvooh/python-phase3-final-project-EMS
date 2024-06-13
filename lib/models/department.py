@@ -13,8 +13,9 @@ def get_all_departments(conn):
 
 def delete_department(conn, dept_id):
     cursor = conn.cursor()
-    cursor.execute('DELETE FROM departments WHERE id=?', (dept_id,))
+    cursor.execute('DELETE FROM departments WHERE id = ?', (dept_id,))
     conn.commit()
+
 
 def update_department(conn, dept_id, name=None, description=None):
     cursor = conn.cursor()
