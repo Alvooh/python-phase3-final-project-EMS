@@ -6,9 +6,6 @@ This is a simple command-line interface (CLI) based Employee Management System. 
 
 - [Features](#features)
 - [Directory Structure](#directory-structure)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Database Schema](#database-schema)
 - [Acknowledgements](#acknowledgements)
 
 ## Features
@@ -60,7 +57,7 @@ pipenv shell
 Run the database initialization script:
 
 ```bash
-python -m lib.models.init_db
+python -m lib.models.init_db.py
 
 ```
 Run the CLI:
@@ -98,7 +95,7 @@ This project is based on the template and curriculum provided by Flatiron School
 
 ### Author
 
-This project has been authored by Alvin Obala github.com/Alvooh
+This project has been authored by Alvin Obala [[github.com/Alvooh]]
 
 ### License
 
@@ -109,5 +106,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
