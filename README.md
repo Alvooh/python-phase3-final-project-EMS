@@ -43,29 +43,31 @@ This is a simple command-line interface (CLI) based Employee Management System. 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Alvooh/python-phase3-final-project-EMS
+
+   cd python-phase3-final-project-EMS
+
 Install dependencies:
 
 Ensure you have pipenv installed. Then run:
 
-bash
-Copy code
+```bash
+
 pipenv install
 pipenv shell
 Initialize the database:
 
 Run the database initialization script:
 
-bash
-Copy code
+```bash
 python -m lib.models.init_db
-Usage
+
+```
 Run the CLI:
 
-bash
-Copy code
+```bash
 python lib/cli.py
+```
 Follow the on-screen instructions to manage employees, departments, projects, and leaves.
 
 CLI Menu Options
@@ -88,29 +90,7 @@ Update a leave
 View an employee by ID
 Delete a leave
 Exit the program
-Database Schema
-Employees
-Column	Type
-id	INTEGER
-name	TEXT
-age	INTEGER
-department_id	INTEGER
-Departments
-Column	Type
-id	INTEGER
-name	TEXT
-Projects
-Column	Type
-id	INTEGER
-name	TEXT
-description	TEXT
-Leaves
-Column	Type
-id	INTEGER
-employee_id	INTEGER
-start_date	TEXT
-end_date	TEXT
-reason	TEXT
+
 
 Acknowledgements
 This project is based on the template and curriculum provided by Flatiron School. It uses SQLite for data storage and tabulate for formatting output in the CLI.
